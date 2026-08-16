@@ -6,6 +6,7 @@
 
 - `beau-art-style-transfer`：将照片、截图或其他图片转换成水墨、油画、版画、插画等艺术画风；支持主体保真、可选风格参考图、去水印和画幅约束。
 - `beau-art-style-transfer-evolver`：复盘生成结果，把可泛化的反馈整理成最小规则提案和回归用例；只有明确确认后才写回主技能。
+- `beau-art-style-compare`：将原图和修改图统一宽度，按“原图在上、修改后在下”展示，并保存一张纵向对比长图。
 
 ## 使用方式
 
@@ -27,7 +28,9 @@
 beau-art-style-skills/
 ├── beau-art-style-transfer/
 ├── beau-art-style-transfer-evolver/
+├── beau-art-style-compare/
 └── dist/
     ├── beau-art-style-transfer.skill
-    └── beau-art-style-transfer-evolver.skill
+    ├── beau-art-style-transfer-evolver.skill
+    └── beau-art-style-compare.skill
 ```
